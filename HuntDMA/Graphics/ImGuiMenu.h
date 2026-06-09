@@ -46,6 +46,7 @@ private:
     void ColorPickerWithText(const char* label, ImVec4* color);
     void HelpMarker(const char* desc);
     bool HotKey(const char* label, int* key);
+    void SectionHeader(const char* label);
 
 public:
     ImGuiMenu() = default;
